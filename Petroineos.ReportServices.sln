@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Petroineos.DAPowerPositionReportService", "Petroineos.DAPowerPositionReportService\Petroineos.DAPowerPositionReportService.csproj", "{AA155619-8F40-45CE-B16A-833C0875637B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Petroineos.Reports.Common", "Petroineos.Reports.Common\Petroineos.Reports.Common.csproj", "{58DF8D66-44E9-4415-BF6F-FC3B8F034057}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Petroineos.DAPowerPositionReportServiceTests", "Petroineos.DAPowerPositionReportServiceTests\Petroineos.DAPowerPositionReportServiceTests.csproj", "{6163BE77-24D9-45C8-BD77-9B173A8A793C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{4EE02AD6-4491-4015-B300-D249B501C79A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{07DDAD72-09D2-4D05-B7E8-63C84158195C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{399B1090-8195-486F-8E24-796CF98B39DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA155619-8F40-45CE-B16A-833C0875637B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA155619-8F40-45CE-B16A-833C0875637B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA155619-8F40-45CE-B16A-833C0875637B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA155619-8F40-45CE-B16A-833C0875637B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DF8D66-44E9-4415-BF6F-FC3B8F034057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DF8D66-44E9-4415-BF6F-FC3B8F034057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DF8D66-44E9-4415-BF6F-FC3B8F034057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DF8D66-44E9-4415-BF6F-FC3B8F034057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6163BE77-24D9-45C8-BD77-9B173A8A793C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6163BE77-24D9-45C8-BD77-9B173A8A793C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6163BE77-24D9-45C8-BD77-9B173A8A793C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6163BE77-24D9-45C8-BD77-9B173A8A793C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA155619-8F40-45CE-B16A-833C0875637B} = {07DDAD72-09D2-4D05-B7E8-63C84158195C}
+		{58DF8D66-44E9-4415-BF6F-FC3B8F034057} = {4EE02AD6-4491-4015-B300-D249B501C79A}
+		{6163BE77-24D9-45C8-BD77-9B173A8A793C} = {399B1090-8195-486F-8E24-796CF98B39DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD96C2C2-B4CB-419C-B2DC-EF241AAF2536}
+	EndGlobalSection
+EndGlobal
